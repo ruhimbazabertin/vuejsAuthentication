@@ -43,7 +43,10 @@
 </template>
 
 <script>
-import axios from 'axios'
+//Global Configuration
+//import axios from 'axios'
+//axios-auth configuration
+import axios from '../axios-auth'
 export default {
   data(){
       return {
